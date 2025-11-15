@@ -1,0 +1,73 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA / Android Studio
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/jarRepositories.xml
+.idea/shelf/
+.idea/caches/
+.idea/libraries/
+*.iws
+*.iml
+out/
+local.properties
+
+# Kotlin
+*.kotlin_module
+
+# Compiled files
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Package Files
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# H2 Database
+*.db
+*.trace.db
+*.lock.db
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing
+/out/
+/test-output/
+
+# Environment variables
+.env
+.env.local
+.env.*.local

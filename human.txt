@@ -1,0 +1,2 @@
+Lo más complicado fue manejar bien las validaciones en el servicio porque hay que verificar varias cosas antes de registrar un auto
+Me costó un poco pensar en el orden correcto de las validaciones para que los errores

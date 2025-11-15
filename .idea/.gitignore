@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/tasks.xml
+/dictionaries/
+/vcs.xml
+/jsLibraryMappings.xml
+/dataSources/
+/dataSources.ids
+/dataSources.local.xml
+/sqlDataSources.xml
+/dynamic.xml
+/uiDesigner.xml
+/jarRepositories.xml
+/libraries/
+/caches/
+
+# Copilot
+/copilot.data.*
