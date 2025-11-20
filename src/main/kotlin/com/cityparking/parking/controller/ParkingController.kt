@@ -3,6 +3,7 @@ package com.cityparking.parking.controller
 import com.cityparking.parking.dto.ParkingEntryRequest
 import com.cityparking.parking.dto.ParkingEntryResponse
 import com.cityparking.parking.service.ParkingService
+import jakarta.validation.Valid
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.*
 class ParkingController(private val service: ParkingService) {
 
     @PostMapping
-    fun registerEntry(@RequestBody request: ParkingEntryRequest): ResponseEntity<ParkingEntryResponse> {
+    fun registerEntry(@Valid @RequestBody request: ParkingEntryRequest): ResponseEntity<ParkingEntryResponse> {
         val entry = service.registerEntry(request.plate, request.ownerName)
         val response = ParkingEntryResponse(
             id = entry.id,

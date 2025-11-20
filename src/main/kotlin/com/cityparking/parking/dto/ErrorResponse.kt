@@ -1,6 +1,6 @@
 package com.cityparking.parking.dto
 
 data class ErrorResponse(
-    val error: String,
+    val message: String,
     val status: Int
 )
